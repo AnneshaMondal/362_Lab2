@@ -1,0 +1,44 @@
+<DOCTYPE html>
+<html lang= "en">
+<head>
+  <title> Annesha Mondal Lab 2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-widthm initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="screen.css"
+</head>
+
+<body>
+  <form method= "get" action="#null">
+    <fieldset>
+      <h1> Sign up for Key Club </h1>
+
+
+    <div>
+      <label>Name:</<label>
+      <input type="text" name="fname" placeholder="full name">
+    </div>
+
+    <div>
+        <label>E-mail:</label>
+        <inupt type="text" name="email_field" placeholder="amondal@hawk.iit.edu">
+    </div>
+
+    <div>
+      <label>Date of Birth:</label>
+      <input type="text" name="birthday" id="date" placeholder="MM/DD/YYYY">
+    </div>
+
+    <button onclick="myFunction()">Submit</button>
+    <p id="button"></p>
+
+    <script>
+      function myFunction() {
+        document.getElementById("button").innerHTML="Thank you for signing up for Key Club. We will be in touch!";
+      }
+    </script>
+
+
+  </fieldset>
+</form>
+</body>
+</html>
