@@ -244,6 +244,7 @@ textarea {
     float: none;
   }
 
+  input[type=text],
   input[type=email],
   input[type=text],
   input[type=date] {
