@@ -244,7 +244,7 @@ textarea {
     float: none;
   }
 
-  input[type=email],
+  input[type=email_field],
   input[type=text],
   input[type=date] {
     width: 95%;
