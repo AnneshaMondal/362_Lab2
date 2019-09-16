@@ -4,7 +4,7 @@
   <title> Annesha Mondal Lab 2</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-widthm initial-scale=1.0">
-  
+  <link rel="stylesheet" type="text/css" href="screen.css"
 </head>
 
 <body>
@@ -28,6 +28,14 @@
       <input type="text" name="birthday" id="date" placeholder="MM/DD/YYYY">
     </div>
 
+    <button onclick="myFunction()">Submit</button>
+    <p id="button"></p>
+
+    <script>
+      function myFunction() {
+        document.getElementById("button").innerHTML="Thank you for signing up for Key Club. We will be in touch!";
+      }
+    </script>
 
 
   </fieldset>
